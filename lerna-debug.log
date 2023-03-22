@@ -1,0 +1,59 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '6.0.1',
+0 silly argv   '$0': '/Users/linbin/Desktop/workspace/getting-started-example/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v6.0.1
+2 verbose rootPath /Users/linbin/Desktop/workspace/getting-started-example
+3 info versioning independent
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 2
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "@ld/footer@0.0.1-2-gde90329" => {"lastTagName":"@ld/footer@0.0.1","lastVersion":"0.0.1","refCount":"2","sha":"de90329","isDirty":false}
+14 info Looking for changed packages since @ld/footer@0.0.1
+15 silly checking diff packages/footer
+16 silly found diff in packages/footer/package.json
+17 verbose filtered diff [ 'packages/footer/package.json' ]
+18 silly checking diff packages/header
+19 silly found diff in packages/header/package-lock.json
+19 silly found diff in packages/header/package.json
+20 verbose filtered diff [ 'packages/header/package-lock.json', 'packages/header/package.json' ]
+21 silly checking diff packages/remixapp
+22 silly found diff in packages/remixapp/package.json
+23 verbose filtered diff [ 'packages/remixapp/package.json' ]
+24 verbose updated @decoration/footer
+25 verbose updated @decoration/header
+26 verbose updated remixapp
+27 verbose git-describe undefined => "@ld/footer@0.0.1-2-gde90329"
+28 silly git-describe parsed => {"lastTagName":"@ld/footer@0.0.1","lastVersion":"0.0.1","refCount":"2","sha":"de90329","isDirty":false}
+29 info execute Skipping releases
+30 silly lifecycle No script for "preversion" in "root", continuing
+31 silly lifecycle No script for "preversion" in "@decoration/footer", continuing
+32 silly lifecycle No script for "preversion" in "@decoration/header", continuing
+33 silly lifecycle No script for "version" in "@decoration/header", continuing
+34 silly lifecycle No script for "version" in "@decoration/footer", continuing
+35 silly lifecycle No script for "preversion" in "remixapp", continuing
+36 silly lifecycle No script for "version" in "remixapp", continuing
+37 verbose version Updating root package-lock.json
+38 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+38 error npm ERR! code E404
+38 error npm ERR! 404 Not Found - GET https://npm.shopee.io/@decoration%2fheader - no such package available
+38 error npm ERR! 404
+38 error npm ERR! 404  '@decoration/header@^0.0.1' is not in this registry.
+38 error npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
+38 error npm ERR! 404
+38 error npm ERR! 404 Note that you can also install from a
+38 error npm ERR! 404 tarball, folder, http url, or git url.
+38 error
+38 error npm ERR! A complete log of this run can be found in:
+38 error npm ERR!     /Users/linbin/.npm/_logs/2023-03-22T10_36_37_145Z-debug.log
+38 error     at makeError (/Users/linbin/Desktop/workspace/getting-started-example/node_modules/execa/lib/error.js:60:11)
+38 error     at handlePromise (/Users/linbin/Desktop/workspace/getting-started-example/node_modules/execa/index.js:118:26)
+38 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+38 error     at async Promise.all (index 0)
