@@ -1,5 +1,6 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "independent",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "registry": "https://npm.shopee.io"
 }

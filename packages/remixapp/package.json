@@ -10,8 +10,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@ld/footer": "^0.0.1",
-    "@ld/header": "^0.0.1",
+    "@decoration/footer": "^0.0.1",
+    "@decoration/header": "^0.0.1",
     "@remix-run/node": "^1.5.1",
     "@remix-run/react": "^1.5.1",
     "@remix-run/serve": "^1.5.1",
